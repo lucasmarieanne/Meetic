@@ -1,0 +1,114 @@
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/home.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 5%;
+    width: 100%;
+    background-color: #fff;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header ul li a {
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+    font-size: 14px;
+}
+
+.logo {
+    display: inline-block;
+    transition: transform 300ms ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.07);
+}
+
+.logo img{
+    height: 40px;
+}
+
+.signIn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px #CA3C66 solid;
+    color: #CA3C66;
+}
+
+.signIn:hover {
+    background-color: #9f2f51;
+    border: 1px #9f2f51 solid;
+    color: #fff;
+}
+
+.signUp {
+    background-color: #242423;
+    border: 1px #242423 solid;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.signUp:hover {
+    background-color: #484847;
+    color: #fff;
+    border: 1px #484847 solid;
+}
+
+.home {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.homeContainer {
+    margin-bottom: 50px;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.homeText p {
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.homeText a {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.homeText a:hover {
+    background-color: #d1d1d1;
+}

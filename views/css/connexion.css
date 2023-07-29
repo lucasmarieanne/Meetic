@@ -1,0 +1,207 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(../images/background_account4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: inline-block;
+    transition: transform 300ms ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.07);
+}
+
+.logo img{
+    height: 40px;
+}
+
+.signIn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px #CA3C66 solid;
+    color: #CA3C66;
+}
+
+.signIn:hover {
+    background-color: #9f2f51;
+    border: 1px #9f2f51 solid;
+    color: #fff;
+}
+
+.signUp {
+    background-color: #242423;
+    border: 1px #242423 solid;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.signUp:hover {
+    background-color: #484847;
+    color: #fff;
+    border: 1px #484847 solid;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profilBox {
+    width: 100%;
+    padding: 50px 3%;
+}
+
+.profilContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+.profilTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profilTitle h1 {
+    font-family: 'Droid Sans Bold';
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.profilTitle p {
+    color: grey;
+}
+
+.profilSession {
+    margin: 30px 0 50px 0;
+}
+
+.profilAvatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.profilPicture {
+    border: 1px black solid;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+}
+
+.profilAvatarButton {
+    margin-left: 30px;
+}
+
+.avatarButton1 {
+    border: 2px rgb(227, 227, 227) solid;
+    background-color: rgb(227, 227, 227);
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Droid Sans Bold';
+    margin-right: 10px;
+}
+
+.avatarButton2 {
+    border: 2px black solid;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Droid Sans Bold';
+}
+
+.logOut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 5px 5px 20px;
+    background-color: #9e2a2a;
+    /* box-shadow: 0 5px 20px 0 #ac3737; */
+    transition: all 300ms ease-in-out;
+}
+
+.logOut2 {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logOut p {
+    color: #fff;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.logOut:hover {
+    background-color: #822929;
+    transform: scale(1.01);
+    /* box-shadow: 0 -5px 20px 0 #ac3737; */
+}
+
+.logOut i {
+    font-size: 13px;
+    color: #fff;
+    background-color: #ce4141;
+    border-radius: 50%;
+    border: 10px #ce4141 solid;
+}
+
+.profilButton .logOut:nth-child(2) {
+    background-color: green;
+}
+
+.profilSession .welcome {
+    letter-spacing: .5px;
+    font-style: italic;
+
+}
+
+.profilSessionUser {
+    margin-top: 10px;
+}
+
+.profilSessionUser h2 {
+    font-family: 'Droid Sans Bold';
+    font-style: italic;
+    font-size: 25px;
+}
+
+.inputProfil {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.inputBox {
+    width: 400px;
+}
+
+.inputBox label {
+    /* margin-bottom: 20px; */
+    font-family: 'Droid Sans Bold';
+}
+
+.inputBox input {
+    margin-top: 12px;
+    width: 100%;
+    border: 1px rgb(200, 200, 200) solid;
+    padding: 15px 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,263 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 5%;
+    width: 100%;
+    box-shadow: 0 0 0 1px #1E0F1C;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+header ul li a {
+    display: inline-block;
+    transition: all 250ms ease-in-out;
+}
+
+.singIn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px #1E0F1C solid;
+}
+
+.singIn:hover {
+    background-color: #1E0F1C;
+    color: #fff;
+}
+
+.singUp {
+    background-color: #1E0F1C;
+    border: 1px #1E0F1C solid;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.singUp:hover {
+    background-color: #554b54;
+    color: #fff;
+    border: 1px #554b54 solid;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+}
+
+.homeBox {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeBoxLeft {
+    width: 50%;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0,.3))), url(../images/background_signin.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeBoxRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    padding: 5%;
+    box-shadow: 0px 0px 10px 2px rgb(47, 47, 47);
+}
+
+.BoxRight {
+    width: 100%;
+}
+
+.BoxRight .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: transform 300ms ease-in-out;
+}
+
+.BoxRight .logo:hover {
+    transform: scale(1.07);
+}
+
+.BoxRight .logo img{
+    height: 50px;
+}
+
+.boxTitle {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.boxTitle h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Droid Sans Bold';
+}
+
+.boxTitle h1 span {
+    color: #CA3C66;
+    font-size: 50px;
+    font-family: 'Droid Sans Bold';
+}
+
+
+.boxTitle p {
+    font-size: 15px;
+    color: grey;
+}
+
+.input {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #f2ebed;
+    padding: 10px 20px 10px 20px;
+    transition: all 300ms ease-in-out;
+    margin-bottom: 20px;
+}
+
+.input span {
+    color: #ff4036;
+}
+
+.input label {
+    color: grey;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    background-color: #f2ebed;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.input:hover {
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.boxButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #CA3C66;
+    color: #fff;
+    padding: 16px 16px 16px 30px;
+    margin: 40px 0 50px 0;
+    border-radius: 20px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 5px 20px 0 #d37e9b;
+}
+
+.boxButton:hover {
+    background-color: #9f2f51;
+    transform: scale(1.01) translateY(-2px);
+    box-shadow: 0 -5px 20px 0 #bd8092;
+}
+
+.inputIcon {
+    display: flex;
+    align-items: center;
+}
+
+.inputIcon i {
+    color: grey;
+    font-size: 13px;
+}
+
+.boxButton .textButton {
+    color: #fff;
+    font-size: 13px;
+}
+
+.boxButton i {
+    font-size: 13px;
+    color: #fff;
+    background-color: #d75a80;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #d75a80;
+}
+
+.boxText {
+    text-align: center;
+}
+
+.boxText p {
+    font-size: 14px;
+}
+
+.boxText a {
+    color: #CA3C66;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Droid Sans Bold';
+}
+
+.boxText a:hover {
+    text-decoration: underline;
+}
+
+.messageError {
+    color: #ff4036;
+    font-size: 13px;
+}
+
+.messageCorrect {
+    color: #009812;
+    font-size: 13px;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formBox {
+    width: 100%;
+}
+
+.backHome {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.backHome .logo {
+    height: 40px;
+    width: 100%;
+}
+
+.backHome img {
+    height: 50px;
+    width: 100%;
+    transition: transform 300ms ease-in-out;
+}
+
+.backHome .logo img:hover{
+    transform: scale(1.07);
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url(../fonts/FuturaCyrillicBook.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Bold';
+    src: url(../fonts/FuturaCyrillicBold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url(../fonts/FuturaCyrillicDemi.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url(../fonts/droid-sans-2-cufonfonts-webfont/DroidSans.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans Bold';
+    src: url(../fonts/droid-sans-2-cufonfonts-webfont/DroidSans-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}

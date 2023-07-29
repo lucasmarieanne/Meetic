@@ -1,0 +1,8 @@
+.homeBoxLeft {
+    width: 50%;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0,.2))), url(../images/background_signup.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
