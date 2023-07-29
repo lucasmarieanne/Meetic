@@ -14,7 +14,7 @@
 
     class connexionDB {
         private $host ='localhost';  // nom de l'host  
-        private $database ='meetic';    // nom de la base de donnée
+        private $database ='meetic'; // nom de la base de donnée
         private $user ='root';       // utilisateur 
         private $pass ='root';       // mot de passe (il faudra peut-être mettre '' sous Windows)
         private $connexion;
