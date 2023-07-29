@@ -23,17 +23,17 @@ Suivez ces étapes pour lancer le projet "Meetic" :
 
 4. Assurez-vous d'avoir une base de données MySQL configurée et prête à être utilisée.
 
-5. Importez le fichier SQL fourni (`database.sql`) dans votre base de données MySQL pour créer les tables nécessaires.
+5. Importez le fichier SQL fourni (`meetic.sql`) dans votre base de données MySQL pour créer les tables nécessaires.
 
-6. Configurer les informations de connexion à la base de données en modifiant le fichier `config.php` avec vos propres identifiants :
+6. Configurer les informations de connexion à la base de données en modifiant le fichier `login.php` avec vos propres identifiants :
    ```php
    <?php
-   // config.php
+   // login.php
    
-   $db_host = 'localhost';
-   $db_name = 'nom_de_la_base_de_donnees';
-   $db_user = 'votre_nom_d_utilisateur';
-   $db_password = 'votre_mot_de_passe';
+   private $host ='localhost';  // nom de l'host  
+   private $database ='meetic'; // nom de la base de donnée
+   private $user ='root';       // utilisateur 
+   private $pass ='root';       // mot de passe (il faudra peut-être mettre '' sous Windows)
    ?>
    ```
 
